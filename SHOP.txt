@@ -1,0 +1,2 @@
+Horizontal 400	
+Vertical 581

@@ -1,0 +1,2 @@
+Horizontal 81	
+Vertical 122
