@@ -1,4 +1,4 @@
-#include "Magasin.h"
+²#include "Magasin.h"
 
 
 Magasin::Magasin()

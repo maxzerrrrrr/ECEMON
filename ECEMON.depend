@@ -172,3 +172,154 @@
 1510962831 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\achat.cpp
 	"Achat.h"
 
+1510511138 source:c:\users\cfb91\onedrive\documents\github\ecemon\menu.cpp
+	"menu.hpp"
+
+1510960738 c:\users\cfb91\onedrive\documents\github\ecemon\menu.hpp
+	<allegro.h>
+	"menu.hpp"
+	"duel.hpp"
+	"shop.hpp"
+
+1510700350 c:\users\cfb91\onedrive\documents\github\ecemon\duel.hpp
+	<allegro.h>
+
+1511176912 c:\users\cfb91\onedrive\documents\github\ecemon\shop.hpp
+	<allegro.h>
+	<vector>
+	"Magasin.h"
+	"Carte.h"
+	"Joueur.h"
+
+1511178384 c:\users\cfb91\onedrive\documents\github\ecemon\include\magasin.h
+	<iostream>
+	<allegro.h>
+	<vector>
+	<fstream>
+	"Deck.h"
+	"Monstre.h"
+	"Magie.h"
+	"Piege.h"
+	"Energie.h"
+	"Terrain.h"
+	"Achat.h"
+
+1511177498 c:\users\cfb91\onedrive\documents\github\ecemon\include\deck.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Monstre.h"
+	"Magie.h"
+	"Piege.h"
+	"Terrain.h"
+	"Energie.h"
+
+1511169086 c:\users\cfb91\onedrive\documents\github\ecemon\include\monstre.h
+	"Carte.h"
+	"Energie.h"
+	<iostream>
+
+1511180846 c:\users\cfb91\onedrive\documents\github\ecemon\include\carte.h
+	<iostream>
+	<allegro.h>
+	<vector>
+
+1511169206 c:\users\cfb91\onedrive\documents\github\ecemon\include\energie.h
+	"Carte.h"
+	<iostream>
+
+1511169172 c:\users\cfb91\onedrive\documents\github\ecemon\include\magie.h
+	"Sort.h"
+	<iostream>
+
+1510609300 c:\users\cfb91\onedrive\documents\github\ecemon\include\sort.h
+	"Carte.h"
+	<allegro.h>
+
+1511169184 c:\users\cfb91\onedrive\documents\github\ecemon\include\piege.h
+	"Sort.h"
+	<iostream>
+
+1511169222 c:\users\cfb91\onedrive\documents\github\ecemon\include\terrain.h
+	"Carte.h"
+
+1511170110 c:\users\cfb91\onedrive\documents\github\ecemon\include\achat.h
+	"Carte.h"
+
+1511182022 c:\users\cfb91\onedrive\documents\github\ecemon\include\joueur.h
+	<iostream>
+	<allegro.h>
+	<vector>
+	<fstream>
+	"Deck.h"
+	"Monstre.h"
+	"Magie.h"
+	"Achat.h"
+
+1510607562 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\sort.cpp
+	"Sort.h"
+
+1510742484 source:c:\users\cfb91\onedrive\documents\github\ecemon\duel.cpp
+	"duel.hpp"
+
+1510961070 source:c:\users\cfb91\onedrive\documents\github\ecemon\main.cpp
+	<iostream>
+	<allegro.h>
+	"menu.hpp"
+	"menu_p.hpp"
+	"Magasin.h"
+	"Joueur.h"
+
+1511176862 c:\users\cfb91\onedrive\documents\github\ecemon\menu_p.hpp
+	<allegro.h>
+	<iostream>
+	"Carte.h"
+	"Joueur.h"
+	"shop.hpp"
+
+1511180970 source:c:\users\cfb91\onedrive\documents\github\ecemon\menu_p.cpp
+	"MenuJoueur.hpp"
+	"shop.hpp"
+	"duel.hpp"
+
+1510960506 c:\users\cfb91\onedrive\documents\github\ecemon\menujoueur.hpp
+	<allegro.h>
+	<iostream>
+	"Joueur.h"
+
+1511173606 source:c:\users\cfb91\onedrive\documents\github\ecemon\menujoueur.cpp
+	"MenuJoueur.hpp"
+
+1511180370 source:c:\users\cfb91\onedrive\documents\github\ecemon\shop.cpp
+	"shop.hpp"
+
+1510962832 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\achat.cpp
+	"Achat.h"
+
+1511180846 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\carte.cpp
+	"Carte.h"
+
+1511181774 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\deck.cpp
+	"Deck.h"
+
+1511169346 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\energie.cpp
+	"Energie.h"
+
+1511178996 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\joueur.cpp
+	"Joueur.h"
+
+1511178178 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\magasin.cpp
+	"Magasin.h"
+
+1511169354 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\magie.cpp
+	"Magie.h"
+
+1511169360 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\monstre.cpp
+	"Monstre.h"
+
+1511169366 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\piege.cpp
+	"Piege.h"
+
+1511169372 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\terrain.cpp
+	"Terrain.h"
+
