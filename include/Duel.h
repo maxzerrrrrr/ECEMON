@@ -4,7 +4,10 @@
 #include "Field.h"
 #include <iostream>
 #include <queue>
-
+#include <algorithm>
+#include <string>
+#include <cstdlib>
+#include <ctime>
 
 class Duel
 {
