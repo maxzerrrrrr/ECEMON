@@ -29,4 +29,4 @@ void Duel(int *choix, BITMAP* buffermenu, BITMAP* cases_terrain, BITMAP* cursor,
 
     }
 }
-END_OF_FUNCTION()
+///END_OF_FUNCTION()
