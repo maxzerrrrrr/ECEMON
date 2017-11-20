@@ -246,7 +246,7 @@
 1511170110 c:\users\cfb91\onedrive\documents\github\ecemon\include\achat.h
 	"Carte.h"
 
-1511182022 c:\users\cfb91\onedrive\documents\github\ecemon\include\joueur.h
+1511185392 c:\users\cfb91\onedrive\documents\github\ecemon\include\joueur.h
 	<iostream>
 	<allegro.h>
 	<vector>
@@ -262,7 +262,7 @@
 1510742484 source:c:\users\cfb91\onedrive\documents\github\ecemon\duel.cpp
 	"duel.hpp"
 
-1510961070 source:c:\users\cfb91\onedrive\documents\github\ecemon\main.cpp
+1511183487 source:c:\users\cfb91\onedrive\documents\github\ecemon\main.cpp
 	<iostream>
 	<allegro.h>
 	"menu.hpp"
@@ -322,4 +322,21 @@
 
 1511169372 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\terrain.cpp
 	"Terrain.h"
+
+1511186184 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\duel.cpp
+	"Duel.h"
+
+1511186173 c:\users\cfb91\onedrive\documents\github\ecemon\include\duel.h
+	"Joueur.h"
+	"Field.h"
+	<iostream>
+	<queue>
+
+1511186209 c:\users\cfb91\onedrive\documents\github\ecemon\include\field.h
+	<queue>
+	<vector>
+	<Joueur.h>
+
+1511184428 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\field.cpp
+	"Field.h"
 

@@ -9,3 +9,13 @@ Duel::~Duel()
 {
     //dtor
 }
+
+void Duel::start()
+{
+
+}
+
+void Duel::toss()
+{
+    PlayDeck;
+}

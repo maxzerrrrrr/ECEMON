@@ -51,6 +51,7 @@ private:
     int m_money;
     int m_nbre_victoires;
     int m_nbre_defaites;
+    int m_lifepoint = 8000;
 };
 
 #endif // JOUEUR_H
