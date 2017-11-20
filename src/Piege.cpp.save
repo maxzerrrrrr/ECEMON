@@ -1,0 +1,37 @@
+#include "Piege.h"
+
+Piege::Piege()
+{
+    //ctor
+}
+
+Piege::~Piege()
+{
+    //dtor
+}
+
+void  Piege::setDomaine(std::string _domaine)
+{
+    m_domaine=_domaine;
+}
+
+std::string Piege::getDomaine()
+{
+    return m_domaine;
+}
+
+void Piege::setNom(std::string _nom)
+{
+    nomCarte=_nom;
+
+}
+
+std::string Piege::getNom()
+{
+    return nomCarte;
+}
+
+void Piege::AffichInfo(char path)
+{
+    Carte::AffichInfo(path);
+}

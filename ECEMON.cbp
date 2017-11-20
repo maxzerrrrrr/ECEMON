@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ECEMON" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ECEMON" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/liballeg44.dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ECEMON" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/liballeg44.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="../../../../../../Program Files (x86)/CodeBlocks/MinGW/lib/liballeg44.dll.a" />
+		</Linker>
+		<Unit filename="MenuJoueur.cpp" />
+		<Unit filename="MenuJoueur.hpp" />
+		<Unit filename="duel.cpp" />
+		<Unit filename="duel.hpp" />
+		<Unit filename="include/Achat.h" />
+		<Unit filename="include/Carte.h" />
+		<Unit filename="include/Deck.h" />
+		<Unit filename="include/Energie.h" />
+		<Unit filename="include/Joueur.h" />
+		<Unit filename="include/Magasin.h" />
+		<Unit filename="include/Magie.h" />
+		<Unit filename="include/Monstre.h" />
+		<Unit filename="include/Piege.h" />
+		<Unit filename="include/Sort.h" />
+		<Unit filename="include/Terrain.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.hpp" />
+		<Unit filename="menu_p.cpp" />
+		<Unit filename="menu_p.hpp" />
+		<Unit filename="shop.cpp" />
+		<Unit filename="shop.hpp" />
+		<Unit filename="src/Achat.cpp" />
+		<Unit filename="src/Carte.cpp" />
+		<Unit filename="src/Deck.cpp" />
+		<Unit filename="src/Energie.cpp" />
+		<Unit filename="src/Joueur.cpp" />
+		<Unit filename="src/Magasin.cpp" />
+		<Unit filename="src/Magie.cpp" />
+		<Unit filename="src/Monstre.cpp" />
+		<Unit filename="src/Piege.cpp" />
+		<Unit filename="src/Sort.cpp" />
+		<Unit filename="src/Terrain.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

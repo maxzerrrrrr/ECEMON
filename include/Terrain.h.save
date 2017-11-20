@@ -1,0 +1,21 @@
+#ifndef TERRAIN_H
+#define TERRAIN_H
+
+#include "Carte.h"
+
+class Terrain : public Carte
+{
+public:
+    Terrain();
+    virtual ~Terrain();
+
+    void AjouterCarteTerrain(Carte &maCarte, std::string nom, std::string domaine,int energie,std::string path);
+
+
+protected:
+
+private:
+    int m_energie;
+};
+
+#endif // TERRAIN_H

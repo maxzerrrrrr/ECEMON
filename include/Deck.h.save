@@ -1,0 +1,45 @@
+#ifndef DECK_H
+#define DECK_H
+
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include "Monstre.h"
+#include "Magie.h"
+#include "Piege.h"
+#include "Terrain.h"
+#include "Energie.h"
+
+class Deck
+{
+public:
+    Deck();
+    Deck(std::string _nom, int _nbre);
+    virtual ~Deck();
+
+    void setNomDeck(std::string _nom);
+
+    void setNbreCartes(int _exemplaire);
+    int getNbreCartes();
+    
+    void setVectorDeck(std::vector <Carte> Deck);
+    std::vector<Carte> getVectorDeck();
+
+    std::string getNomDeck();
+
+    void CreationDeck(std::string nom);
+    std::vector <Carte> RecupDeck(std::string nom);
+
+    void AfficherDeck();
+
+protected:
+
+private:
+    std::string nom_deck;
+    std::vector <Carte> CollectionJoueur;
+    int nbre_cartes_deck=0;
+    int nbre_cartes_max=40;
+
+};
+
+#endif // DECK_H

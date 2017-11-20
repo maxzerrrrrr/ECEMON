@@ -1,0 +1,174 @@
+# depslib dependency file v1.0
+1510961069 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\main.cpp
+	<iostream>
+	<allegro.h>
+	"menu.hpp"
+	"menu_p.hpp"
+	"Magasin.h"
+	"Joueur.h"
+
+1510489778 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\algif.c
+	"algif.h"
+
+1510489780 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\algif.h
+	<allegro.h>
+
+1510489776 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\gif.c
+	"algif.h"
+	"lzw.h"
+	<stdlib.h>
+	<string.h>
+
+1510489775 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\lzw.h
+	<allegro.h>
+
+1510489771 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\lzw.c
+	"lzw.h"
+
+1510960736 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\menu.hpp
+	<allegro.h>
+	"menu.hpp"
+	"duel.hpp"
+	"shop.hpp"
+
+1510511136 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\menu.cpp
+	"menu.hpp"
+
+1511180969 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\menu_p.cpp
+	"MenuJoueur.hpp"
+	"shop.hpp"
+	"duel.hpp"
+
+1511176860 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\menu_p.hpp
+	<allegro.h>
+	<iostream>
+	"Carte.h"
+	"Joueur.h"
+	"shop.hpp"
+
+1510742483 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\duel.cpp
+	"duel.hpp"
+
+1510700349 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\duel.hpp
+	<allegro.h>
+
+1511176911 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\shop.hpp
+	<allegro.h>
+	<vector>
+	"Magasin.h"
+	"Carte.h"
+	"Joueur.h"
+
+1511180369 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\shop.cpp
+	"shop.hpp"
+
+1511180844 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\carte.cpp
+	"Carte.h"
+
+1511180844 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\carte.h
+	<iostream>
+	<allegro.h>
+	<vector>
+
+1511178176 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\magasin.cpp
+	"Magasin.h"
+
+1511178383 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\magasin.h
+	<iostream>
+	<allegro.h>
+	<vector>
+	<fstream>
+	"Deck.h"
+	"Monstre.h"
+	"Magie.h"
+	"Piege.h"
+	"Energie.h"
+	"Terrain.h"
+	"Achat.h"
+
+1511169359 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\monstre.cpp
+	"Monstre.h"
+
+1511169084 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\monstre.h
+	"Carte.h"
+	"Energie.h"
+	<iostream>
+
+1511169352 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\magie.cpp
+	"Magie.h"
+
+1511169171 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\magie.h
+	"Sort.h"
+	<iostream>
+
+1510609299 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\sort.h
+	"Carte.h"
+	<allegro.h>
+
+1511169364 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\piege.cpp
+	"Piege.h"
+
+1511169183 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\piege.h
+	"Sort.h"
+	<iostream>
+
+1510607560 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\sort.cpp
+	"Sort.h"
+
+1511169204 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\energie.h
+	"Carte.h"
+	<iostream>
+
+1511169344 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\energie.cpp
+	"Energie.h"
+
+1511169221 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\terrain.h
+	"Carte.h"
+
+1511169371 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\terrain.cpp
+	"Terrain.h"
+
+1510783515 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\joueur.cpp
+	"Joueur.h"
+	<allegro.h>
+
+1511178383 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\joueur.h
+	<iostream>
+	<allegro.h>
+	<vector>
+	<fstream>
+	"Deck.h"
+	"Monstre.h"
+	"Magie.h"
+	"Achat.h"
+
+1510960505 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\menujoueur.hpp
+	<allegro.h>
+	<iostream>
+	"Joueur.h"
+
+1511178994 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\joueur.cpp
+	"Joueur.h"
+
+1511173605 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\menujoueur.cpp
+	"MenuJoueur.hpp"
+
+1511177497 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\deck.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Monstre.h"
+	"Magie.h"
+	"Piege.h"
+	"Terrain.h"
+	"Energie.h"
+
+1511181773 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\deck.cpp
+	"Deck.h"
+
+1511170108 c:\users\bastien\documents\cours ing2\projet info 1\ecemon\include\achat.h
+	"Carte.h"
+
+1510962831 source:c:\users\bastien\documents\cours ing2\projet info 1\ecemon\src\achat.cpp
+	"Achat.h"
+

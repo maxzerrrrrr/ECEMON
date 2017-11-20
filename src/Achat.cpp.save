@@ -1,0 +1,16 @@
+#include "Achat.h"
+
+Achat::Achat()
+{
+    //ctor
+}
+
+Achat::~Achat()
+{
+    //dtor
+}
+
+void Achat::VendreCarte(Joueur j, Magasin m)
+{
+
+}
