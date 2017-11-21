@@ -262,7 +262,7 @@
 1510742484 source:c:\users\cfb91\onedrive\documents\github\ecemon\duel.cpp
 	"duel.hpp"
 
-1511183487 source:c:\users\cfb91\onedrive\documents\github\ecemon\main.cpp
+1511255886 source:c:\users\cfb91\onedrive\documents\github\ecemon\main.cpp
 	<iostream>
 	<allegro.h>
 	"menu.hpp"
@@ -308,7 +308,7 @@
 1511178996 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\joueur.cpp
 	"Joueur.h"
 
-1511178178 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\magasin.cpp
+1511186217 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\magasin.cpp
 	"Magasin.h"
 
 1511169354 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\magie.cpp
@@ -323,10 +323,10 @@
 1511169372 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\terrain.cpp
 	"Terrain.h"
 
-1511186184 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\duel.cpp
+1511187361 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\duel.cpp
 	"Duel.h"
 
-1511186173 c:\users\cfb91\onedrive\documents\github\ecemon\include\duel.h
+1511186532 c:\users\cfb91\onedrive\documents\github\ecemon\include\duel.h
 	"Joueur.h"
 	"Field.h"
 	<iostream>
