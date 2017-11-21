@@ -23,8 +23,8 @@ int Magasin::getStock()
 std::vector<Carte> Magasin::RecupFichier()
 {
 
-    ///Lire un fichier ligne par ligne
-    ///Entrée : le chemin d'accès au fichier
+    /Lire un fichier ligne par ligne
+    /Entrée : le chemin d'accès au fichier
 
     std::ifstream fichier("SHOP.txt", std::ios::in);
     std::cout << "Reading SHOP.text => OK" << std::endl;
@@ -52,7 +52,7 @@ std::vector<Carte> Magasin::RecupFichier()
                 fichier >> nom >> domaine >> energie >> special >> atk >> def >> nbre_exemplaire >> path;
                 Monstre maCarte;
                 maCarte.AjouterCarteMonstre(maCarte,nom,domaine,energie,special,atk,def,nbre_exemplaire,path);
-                ///AJOUT DE LA CARTE DANS LA COLLECTION
+                /AJOUT DE LA CARTE DANS LA COLLECTION
                 CollectionMagasin.push_back(maCarte);
                 chemin=path.c_str();
                 maCarte.AffichInfo(chemin);

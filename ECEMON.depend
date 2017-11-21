@@ -340,3 +340,93 @@
 1511184428 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\field.cpp
 	"Field.h"
 
+1511204426 source:c:\users\famille francois\documents\github\ecemon\duel.cpp
+	"duel.hpp"
+
+1511204407 c:\users\famille francois\documents\github\ecemon\duel.hpp
+
+1511204458 source:c:\users\famille francois\documents\github\ecemon\main.cpp
+	<iostream>
+	"menu.hpp"
+	"menu_p.hpp"
+	"Magasin.h"
+	"Joueur.h"
+
+1511204455 c:\users\famille francois\documents\github\ecemon\menu.hpp
+	"menu.hpp"
+	"duel.hpp"
+	"shop.hpp"
+
+1511204454 c:\users\famille francois\documents\github\ecemon\shop.hpp
+	<vector>
+	"Magasin.h"
+	"Carte.h"
+	"Joueur.h"
+
+1511204438 c:\users\famille francois\documents\github\ecemon\include\magasin.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Deck.h"
+	"Monstre.h"
+	"Magie.h"
+	"Piege.h"
+	"Energie.h"
+	"Terrain.h"
+	"Achat.h"
+
+1511195193 c:\users\famille francois\documents\github\ecemon\include\deck.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Monstre.h"
+	"Magie.h"
+	"Piege.h"
+	"Terrain.h"
+	"Energie.h"
+
+1511204452 c:\users\famille francois\documents\github\ecemon\include\monstre.h
+	"Carte.h"
+	"Energie.h"
+	<iostream>
+
+1511204450 c:\users\famille francois\documents\github\ecemon\include\carte.h
+	<iostream>
+	<vector>
+
+1511195193 c:\users\famille francois\documents\github\ecemon\include\energie.h
+	"Carte.h"
+	<iostream>
+
+1511195193 c:\users\famille francois\documents\github\ecemon\include\magie.h
+	"Sort.h"
+	<iostream>
+
+1511204441 c:\users\famille francois\documents\github\ecemon\include\sort.h
+	"Carte.h"
+
+1511195193 c:\users\famille francois\documents\github\ecemon\include\piege.h
+	"Sort.h"
+	<iostream>
+
+1511195193 c:\users\famille francois\documents\github\ecemon\include\terrain.h
+	"Carte.h"
+
+1511195193 c:\users\famille francois\documents\github\ecemon\include\achat.h
+	"Carte.h"
+
+1511204442 c:\users\famille francois\documents\github\ecemon\include\joueur.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Deck.h"
+	"Monstre.h"
+	"Magie.h"
+	"Achat.h"
+
+1511204457 c:\users\famille francois\documents\github\ecemon\menu_p.hpp
+	<iostream>
+	"Carte.h"
+	"Joueur.h"
+	"shop.hpp"
+

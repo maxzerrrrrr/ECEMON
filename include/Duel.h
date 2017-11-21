@@ -4,7 +4,10 @@
 #include "Field.h"
 #include <iostream>
 #include <queue>
-
+#include <algorithm>
+#include <string>
+#include <cstdlib>
+#include <ctime>
 
 class Duel
 {
@@ -13,7 +16,8 @@ class Duel
         virtual ~Duel();
         void start();
         void draw(Joueur player1);
-        void win(Joueur player1);
+        void win();
+        void Lose();
         void activate(Carte card1);
         void defausse();
         void choosecard(Carte card1);
@@ -36,6 +40,11 @@ class Duel
         std::vector<Carte>Graveyard;
         std::vector<Carte>AleaDeck;
         std::queue<Carte>PlayDeck;
+        std::vector<Carte>MyField;
+        std::vector<Carte>HisHand;
+        std::vector<Carte>HisGraveyard;
+        std::vector<Carte>HisAleaDeck;
+        std::queue<Carte>HisPlayDeck;
 };
 
 #endif // DUEL_H
