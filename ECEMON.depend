@@ -343,7 +343,8 @@
 1511204426 source:c:\users\famille francois\documents\github\ecemon\duel.cpp
 	"duel.hpp"
 
-1511204407 c:\users\famille francois\documents\github\ecemon\duel.hpp
+1511206974 c:\users\famille francois\documents\github\ecemon\duel.hpp
+	<allegro.h>
 
 1511204458 source:c:\users\famille francois\documents\github\ecemon\main.cpp
 	<iostream>
@@ -352,19 +353,22 @@
 	"Magasin.h"
 	"Joueur.h"
 
-1511204455 c:\users\famille francois\documents\github\ecemon\menu.hpp
+1511206974 c:\users\famille francois\documents\github\ecemon\menu.hpp
+	<allegro.h>
 	"menu.hpp"
 	"duel.hpp"
 	"shop.hpp"
 
-1511204454 c:\users\famille francois\documents\github\ecemon\shop.hpp
+1511206974 c:\users\famille francois\documents\github\ecemon\shop.hpp
+	<allegro.h>
 	<vector>
 	"Magasin.h"
 	"Carte.h"
 	"Joueur.h"
 
-1511204438 c:\users\famille francois\documents\github\ecemon\include\magasin.h
+1511206973 c:\users\famille francois\documents\github\ecemon\include\magasin.h
 	<iostream>
+	<allegro.h>
 	<vector>
 	<fstream>
 	"Deck.h"
@@ -385,13 +389,14 @@
 	"Terrain.h"
 	"Energie.h"
 
-1511204452 c:\users\famille francois\documents\github\ecemon\include\monstre.h
+1511206973 c:\users\famille francois\documents\github\ecemon\include\monstre.h
 	"Carte.h"
 	"Energie.h"
 	<iostream>
 
-1511204450 c:\users\famille francois\documents\github\ecemon\include\carte.h
+1511206974 c:\users\famille francois\documents\github\ecemon\include\carte.h
 	<iostream>
+	<allegro.h>
 	<vector>
 
 1511195193 c:\users\famille francois\documents\github\ecemon\include\energie.h
@@ -402,8 +407,9 @@
 	"Sort.h"
 	<iostream>
 
-1511204441 c:\users\famille francois\documents\github\ecemon\include\sort.h
+1511206973 c:\users\famille francois\documents\github\ecemon\include\sort.h
 	"Carte.h"
+	<allegro.h>
 
 1511195193 c:\users\famille francois\documents\github\ecemon\include\piege.h
 	"Sort.h"
@@ -415,8 +421,9 @@
 1511195193 c:\users\famille francois\documents\github\ecemon\include\achat.h
 	"Carte.h"
 
-1511204442 c:\users\famille francois\documents\github\ecemon\include\joueur.h
+1511206974 c:\users\famille francois\documents\github\ecemon\include\joueur.h
 	<iostream>
+	<allegro.h>
 	<vector>
 	<fstream>
 	"Deck.h"
@@ -424,7 +431,8 @@
 	"Magie.h"
 	"Achat.h"
 
-1511204457 c:\users\famille francois\documents\github\ecemon\menu_p.hpp
+1511206974 c:\users\famille francois\documents\github\ecemon\menu_p.hpp
+	<allegro.h>
 	<iostream>
 	"Carte.h"
 	"Joueur.h"
