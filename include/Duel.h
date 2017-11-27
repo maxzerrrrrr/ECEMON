@@ -14,19 +14,21 @@ class Duel
     public:
         Duel();
         virtual ~Duel();
-        void start();
+        void start(Joueur player1, Joueur player2);
         void draw(Joueur player1);
         void win();
         void Lose();
         void activate(Carte card1);
-        void defausse();
+        void defausse(int i, Joueur playeer1);
         void choosecard(Carte card1);
         void attack(Carte card1, Carte card2);
         void destroy(Carte card1);
-        void toss();
+        void shuffle();
         void getdestroy(Carte card1);
         int getturn()const;
         void setturn();
+        std::vector<Joueur> getMesjoueurs()const;
+        void AjouterJoueur(Joueur player1, Joueur player2);
 
 
     protected:
@@ -35,12 +37,7 @@ class Duel
         std::vector<Joueur>MesJoueurs;
         int m_turn;
         int m_duelphase = 0;
-        std::vector<Carte>MyField;
-        std::vector<Carte>Hand;
-        std::vector<Carte>Graveyard;
-        std::vector<Carte>AleaDeck;
-        std::queue<Carte>PlayDeck;
-        std::vector<Carte>MyField;
+        std::vector<Carte>HisField;
         std::vector<Carte>HisHand;
         std::vector<Carte>HisGraveyard;
         std::vector<Carte>HisAleaDeck;

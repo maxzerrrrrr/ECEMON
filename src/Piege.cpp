@@ -40,10 +40,10 @@ void Piege::AjouterCartePiege(Carte &maCarte, std::string nom, std::string domai
 {
     const char* chemin;
     Carte::AjouterCarte(nom,domaine,nbre_exemplaires);
-    /CONVERSION STRING TO CHAR*
+    //CONVERSION STRING TO CHAR*
     chemin=path.c_str();
 
-    /CHARGEMENT DE LA CARTE
+    //CHARGEMENT DE LA CARTE
     maCarte.setBITMAP(chemin);
 
 }

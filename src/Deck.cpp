@@ -116,7 +116,7 @@ std::vector <Carte> Deck::RecupDeck( std::string nom)
                 fichier >> nom >> domaine >> energie >> special >> atk >> def >> nbre_exemplaires>> path;
                 Monstre maCarte;
                 maCarte.AjouterCarteMonstre(maCarte,nom,domaine,energie,special,atk,def,nbre_exemplaires,path);
-                /AJOUT DE LA CARTE DANS LA COLLECTION
+                //AJOUT DE LA CARTE DANS LA COLLECTION
                 CollectionBase.push_back(maCarte);
                 acces=path.c_str();
                 maCarte.AffichInfo(acces);

@@ -1,5 +1,5 @@
 #include <iostream>
-//#include <allegro.h>
+#include <allegro.h>
 #include "menu.hpp"
 #include "menu_p.hpp"
 #include "Magasin.h"
@@ -95,4 +95,4 @@ int main()
 
     return 0;
 }
-//END_OF_MAIN()
+END_OF_MAIN()
