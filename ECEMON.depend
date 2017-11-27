@@ -246,10 +246,11 @@
 1511170110 c:\users\cfb91\onedrive\documents\github\ecemon\include\achat.h
 	"Carte.h"
 
-1511185392 c:\users\cfb91\onedrive\documents\github\ecemon\include\joueur.h
+1511799194 c:\users\cfb91\onedrive\documents\github\ecemon\include\joueur.h
 	<iostream>
 	<allegro.h>
 	<vector>
+	<queue>
 	<fstream>
 	"Deck.h"
 	"Monstre.h"
@@ -259,10 +260,10 @@
 1510607562 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\sort.cpp
 	"Sort.h"
 
-1510742484 source:c:\users\cfb91\onedrive\documents\github\ecemon\duel.cpp
+1511284387 source:c:\users\cfb91\onedrive\documents\github\ecemon\duel.cpp
 	"duel.hpp"
 
-1511183487 source:c:\users\cfb91\onedrive\documents\github\ecemon\main.cpp
+1511284957 source:c:\users\cfb91\onedrive\documents\github\ecemon\main.cpp
 	<iostream>
 	<allegro.h>
 	"menu.hpp"
@@ -299,16 +300,16 @@
 1511180846 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\carte.cpp
 	"Carte.h"
 
-1511181774 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\deck.cpp
+1511284532 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\deck.cpp
 	"Deck.h"
 
 1511169346 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\energie.cpp
 	"Energie.h"
 
-1511178996 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\joueur.cpp
+1511360343 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\joueur.cpp
 	"Joueur.h"
 
-1511178178 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\magasin.cpp
+1511284847 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\magasin.cpp
 	"Magasin.h"
 
 1511169354 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\magie.cpp
@@ -317,20 +318,29 @@
 1511169360 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\monstre.cpp
 	"Monstre.h"
 
-1511169366 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\piege.cpp
+1511284855 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\piege.cpp
 	"Piege.h"
 
 1511169372 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\terrain.cpp
 	"Terrain.h"
 
-1511186184 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\duel.cpp
+1511790840 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\duel.cpp
 	"Duel.h"
+	"Joueur.h"
+	<algorithm>
+	<string>
+	<cstdlib>
+	<ctime>
 
-1511186173 c:\users\cfb91\onedrive\documents\github\ecemon\include\duel.h
+1511791626 c:\users\cfb91\onedrive\documents\github\ecemon\include\duel.h
 	"Joueur.h"
 	"Field.h"
 	<iostream>
 	<queue>
+	<algorithm>
+	<string>
+	<cstdlib>
+	<ctime>
 
 1511186209 c:\users\cfb91\onedrive\documents\github\ecemon\include\field.h
 	<queue>
