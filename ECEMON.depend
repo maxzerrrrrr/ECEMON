@@ -353,7 +353,11 @@
 1511284388 source:c:\users\famille francois\documents\github\ecemon\duel.cpp
 	"duel.hpp"
 
+<<<<<<< HEAD
 1510700350 c:\users\famille francois\documents\github\ecemon\duel.hpp
+=======
+1511206974 c:\users\famille francois\documents\github\ecemon\duel.hpp
+>>>>>>> 7fed5cbdfcacd1d236ef1e9653bc91fc114d2bfe
 	<allegro.h>
 
 1511284958 source:c:\users\famille francois\documents\github\ecemon\main.cpp
@@ -364,20 +368,32 @@
 	"Magasin.h"
 	"Joueur.h"
 
+<<<<<<< HEAD
 1510960738 c:\users\famille francois\documents\github\ecemon\menu.hpp
+=======
+1511206974 c:\users\famille francois\documents\github\ecemon\menu.hpp
+>>>>>>> 7fed5cbdfcacd1d236ef1e9653bc91fc114d2bfe
 	<allegro.h>
 	"menu.hpp"
 	"duel.hpp"
 	"shop.hpp"
 
+<<<<<<< HEAD
 1511176912 c:\users\famille francois\documents\github\ecemon\shop.hpp
+=======
+1511206974 c:\users\famille francois\documents\github\ecemon\shop.hpp
+>>>>>>> 7fed5cbdfcacd1d236ef1e9653bc91fc114d2bfe
 	<allegro.h>
 	<vector>
 	"Magasin.h"
 	"Carte.h"
 	"Joueur.h"
 
+<<<<<<< HEAD
 1511178384 c:\users\famille francois\documents\github\ecemon\include\magasin.h
+=======
+1511206973 c:\users\famille francois\documents\github\ecemon\include\magasin.h
+>>>>>>> 7fed5cbdfcacd1d236ef1e9653bc91fc114d2bfe
 	<iostream>
 	<allegro.h>
 	<vector>
@@ -400,12 +416,20 @@
 	"Terrain.h"
 	"Energie.h"
 
+<<<<<<< HEAD
 1511813966 c:\users\famille francois\documents\github\ecemon\include\monstre.h
+=======
+1511206973 c:\users\famille francois\documents\github\ecemon\include\monstre.h
+>>>>>>> 7fed5cbdfcacd1d236ef1e9653bc91fc114d2bfe
 	"Carte.h"
 	"Energie.h"
 	<iostream>
 
+<<<<<<< HEAD
 1511813733 c:\users\famille francois\documents\github\ecemon\include\carte.h
+=======
+1511206974 c:\users\famille francois\documents\github\ecemon\include\carte.h
+>>>>>>> 7fed5cbdfcacd1d236ef1e9653bc91fc114d2bfe
 	<iostream>
 	<allegro.h>
 	<vector>
@@ -419,7 +443,11 @@
 	"Sort.h"
 	<iostream>
 
+<<<<<<< HEAD
 1511813974 c:\users\famille francois\documents\github\ecemon\include\sort.h
+=======
+1511206973 c:\users\famille francois\documents\github\ecemon\include\sort.h
+>>>>>>> 7fed5cbdfcacd1d236ef1e9653bc91fc114d2bfe
 	"Carte.h"
 	<allegro.h>
 
@@ -433,7 +461,11 @@
 1511170110 c:\users\famille francois\documents\github\ecemon\include\achat.h
 	"Carte.h"
 
+<<<<<<< HEAD
 1511804813 c:\users\famille francois\documents\github\ecemon\include\joueur.h
+=======
+1511206974 c:\users\famille francois\documents\github\ecemon\include\joueur.h
+>>>>>>> 7fed5cbdfcacd1d236ef1e9653bc91fc114d2bfe
 	<iostream>
 	<allegro.h>
 	<vector>
@@ -444,7 +476,11 @@
 	"Magie.h"
 	"Achat.h"
 
+<<<<<<< HEAD
 1511176862 c:\users\famille francois\documents\github\ecemon\menu_p.hpp
+=======
+1511206974 c:\users\famille francois\documents\github\ecemon\menu_p.hpp
+>>>>>>> 7fed5cbdfcacd1d236ef1e9653bc91fc114d2bfe
 	<allegro.h>
 	<iostream>
 	"Carte.h"
