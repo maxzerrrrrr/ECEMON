@@ -32,6 +32,11 @@ public:
     void setNomJoueur(std::string _nom);
     void setMoney(int _money);
     void setDeck(Deck _deck);
+    void draw();
+{
+    player1.Hand.push_back(PlayDeck.front());
+    PlayDeck.pop();
+}
 
     void AfficherDeck();
     void CreerJoueur();
@@ -39,6 +44,7 @@ public:
     void CreationDeck(int num);
     Deck RecupDeck(int num);
     int getLP()const;
+    void setLP();
     void AfficherDeck(Deck d);
     std::vector<Carte>getMesjoueurs()const;
     std::queue<Carte>getPlayDeck()const;
@@ -51,12 +57,12 @@ public:
 protected:
 
 private:
-    std::vector <Joueur> MesJoueurs;
-    std::vector<Carte>Field;
-    std::vector<Carte>Hand;
-    std::vector<Carte>Graveyard;
+    std::vector <Joueur>&MesJoueurs;
+    std::vector<Carte>&Field;
+    std::vector<Carte>&Hand;
+    std::vector<Carte>&Graveyard;
     std::vector<Carte>AleaDeck;
-    std::queue<Carte>PlayDeck;
+    std::queue<Carte>&PlayDeck;
     Deck JDeck;
     std::string m_nom="undefined";
     int m_money;

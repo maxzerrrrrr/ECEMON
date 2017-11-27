@@ -20,7 +20,7 @@ void Duel::start(Joueur player1, Joueur player2)
     while(player2.Hand.size() != 5)
     {
         player1.Hand.push_back(PlayDeck.front());
-        PlayDeck.pop();
+        player1.PlayDeck.pop();
         player2.Hand.push_back(PlayDeck.front());
         player2.PlayDeck.pop();
     }
@@ -98,3 +98,15 @@ void Duel::win()
         std::cout<<" YOU WIN !!!!!!! "<<std::endl;
     }
 }
+std::string Duel::getPhase()const
+{
+    return m_phase;
+}
+void Duel::setPhase(int x)
+{
+    m_phase = m_phase[x];
+}
+std::string Duel::m_phase[0] = "DrawPhase"
+std::string Duel::m_phase[1] = "MainPhase"
+std::string Duel::m_phase[2] = "BattlePhase"
+std::string Duel::m_phase[3] = "EndPhase"

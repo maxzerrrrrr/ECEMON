@@ -27,6 +27,8 @@ class Duel
         void getdestroy(Carte card1);
         int getturn()const;
         void setturn();
+        std::string getPhase()const;
+        void setPhase(int x);
         std::vector<Joueur> getMesjoueurs()const;
         void AjouterJoueur(Joueur player1, Joueur player2);
 
@@ -36,7 +38,7 @@ class Duel
     private:
         std::vector<Joueur>MesJoueurs;
         int m_turn;
-        int m_duelphase = 0;
+        std::string m_duelphase[3];
         std::vector<Carte>HisField;
         std::vector<Carte>HisHand;
         std::vector<Carte>HisGraveyard;

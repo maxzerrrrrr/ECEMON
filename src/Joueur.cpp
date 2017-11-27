@@ -34,19 +34,19 @@ std::string Joueur::getNomJoueur()
     return m_nom;
     std::cout << "m_nom :" <<m_nom<<std::endl;
 }
-std::queue<Carte> Joueur::getPlayDeck()const
+std::queue<Carte>& Joueur::getPlayDeck()const
 {
     return PlayDeck;
 }
-std::vector<Carte> Joueur::getHand()const
+std::vector<Carte>& Joueur::getHand()const
 {
     return Hand;
 }
-std::vector<Carte> Joueur::getGraveyard()const
+std::vector<Carte>& Joueur::getGraveyard()const
 {
     return Graveyard;
 }
-std::vector<Carte>Joueur::getMyField()const*
+std::vector<Carte>& Joueur::getMyField()const*
 {
     return Field;
 }
@@ -86,7 +86,15 @@ void Joueur::setDeck(Deck _deck)
     JDeck=_deck;
 }
 
-
+void Joueur::setLP(int LP)
+{
+    m_lifepoint = LP;
+}
+void Joueur::draw()
+{
+    Hand.push_back(PlayDeck.front());
+    PlayDeck.pop();
+}
 
 void Joueur::CreerJoueur()
 {

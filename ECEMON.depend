@@ -350,31 +350,36 @@
 1511184428 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\field.cpp
 	"Field.h"
 
-1511204426 source:c:\users\famille francois\documents\github\ecemon\duel.cpp
+1511284388 source:c:\users\famille francois\documents\github\ecemon\duel.cpp
 	"duel.hpp"
 
-1511204407 c:\users\famille francois\documents\github\ecemon\duel.hpp
+1510700350 c:\users\famille francois\documents\github\ecemon\duel.hpp
+	<allegro.h>
 
-1511204458 source:c:\users\famille francois\documents\github\ecemon\main.cpp
+1511284958 source:c:\users\famille francois\documents\github\ecemon\main.cpp
 	<iostream>
+	<allegro.h>
 	"menu.hpp"
 	"menu_p.hpp"
 	"Magasin.h"
 	"Joueur.h"
 
-1511204455 c:\users\famille francois\documents\github\ecemon\menu.hpp
+1510960738 c:\users\famille francois\documents\github\ecemon\menu.hpp
+	<allegro.h>
 	"menu.hpp"
 	"duel.hpp"
 	"shop.hpp"
 
-1511204454 c:\users\famille francois\documents\github\ecemon\shop.hpp
+1511176912 c:\users\famille francois\documents\github\ecemon\shop.hpp
+	<allegro.h>
 	<vector>
 	"Magasin.h"
 	"Carte.h"
 	"Joueur.h"
 
-1511204438 c:\users\famille francois\documents\github\ecemon\include\magasin.h
+1511178384 c:\users\famille francois\documents\github\ecemon\include\magasin.h
 	<iostream>
+	<allegro.h>
 	<vector>
 	<fstream>
 	"Deck.h"
@@ -385,7 +390,7 @@
 	"Terrain.h"
 	"Achat.h"
 
-1511195193 c:\users\famille francois\documents\github\ecemon\include\deck.h
+1511177498 c:\users\famille francois\documents\github\ecemon\include\deck.h
 	<iostream>
 	<vector>
 	<fstream>
@@ -395,48 +400,122 @@
 	"Terrain.h"
 	"Energie.h"
 
-1511204452 c:\users\famille francois\documents\github\ecemon\include\monstre.h
+1511813966 c:\users\famille francois\documents\github\ecemon\include\monstre.h
 	"Carte.h"
 	"Energie.h"
 	<iostream>
 
-1511204450 c:\users\famille francois\documents\github\ecemon\include\carte.h
+1511813733 c:\users\famille francois\documents\github\ecemon\include\carte.h
 	<iostream>
+	<allegro.h>
 	<vector>
+	"Joueur.h"
 
-1511195193 c:\users\famille francois\documents\github\ecemon\include\energie.h
+1511169206 c:\users\famille francois\documents\github\ecemon\include\energie.h
 	"Carte.h"
 	<iostream>
 
-1511195193 c:\users\famille francois\documents\github\ecemon\include\magie.h
+1511169172 c:\users\famille francois\documents\github\ecemon\include\magie.h
 	"Sort.h"
 	<iostream>
 
-1511204441 c:\users\famille francois\documents\github\ecemon\include\sort.h
+1511813974 c:\users\famille francois\documents\github\ecemon\include\sort.h
 	"Carte.h"
+	<allegro.h>
 
-1511195193 c:\users\famille francois\documents\github\ecemon\include\piege.h
+1511169184 c:\users\famille francois\documents\github\ecemon\include\piege.h
 	"Sort.h"
 	<iostream>
 
-1511195193 c:\users\famille francois\documents\github\ecemon\include\terrain.h
+1511169222 c:\users\famille francois\documents\github\ecemon\include\terrain.h
 	"Carte.h"
 
-1511195193 c:\users\famille francois\documents\github\ecemon\include\achat.h
+1511170110 c:\users\famille francois\documents\github\ecemon\include\achat.h
 	"Carte.h"
 
-1511204442 c:\users\famille francois\documents\github\ecemon\include\joueur.h
+1511804813 c:\users\famille francois\documents\github\ecemon\include\joueur.h
 	<iostream>
+	<allegro.h>
 	<vector>
+	<queue>
 	<fstream>
 	"Deck.h"
 	"Monstre.h"
 	"Magie.h"
 	"Achat.h"
 
-1511204457 c:\users\famille francois\documents\github\ecemon\menu_p.hpp
+1511176862 c:\users\famille francois\documents\github\ecemon\menu_p.hpp
+	<allegro.h>
 	<iostream>
 	"Carte.h"
 	"Joueur.h"
 	"shop.hpp"
+
+1510511138 source:c:\users\famille francois\documents\github\ecemon\menu.cpp
+	"menu.hpp"
+
+1511180970 source:c:\users\famille francois\documents\github\ecemon\menu_p.cpp
+	"MenuJoueur.hpp"
+	"shop.hpp"
+	"duel.hpp"
+
+1510960506 c:\users\famille francois\documents\github\ecemon\menujoueur.hpp
+	<allegro.h>
+	<iostream>
+	"Joueur.h"
+
+1511173606 source:c:\users\famille francois\documents\github\ecemon\menujoueur.cpp
+	"MenuJoueur.hpp"
+
+1511180370 source:c:\users\famille francois\documents\github\ecemon\shop.cpp
+	"shop.hpp"
+
+1510962832 source:c:\users\famille francois\documents\github\ecemon\src\achat.cpp
+	"Achat.h"
+
+1511180846 source:c:\users\famille francois\documents\github\ecemon\src\carte.cpp
+	"Carte.h"
+
+1511284534 source:c:\users\famille francois\documents\github\ecemon\src\deck.cpp
+	"Deck.h"
+
+1511169346 source:c:\users\famille francois\documents\github\ecemon\src\energie.cpp
+	"Energie.h"
+
+1511184430 source:c:\users\famille francois\documents\github\ecemon\src\field.cpp
+	"Field.h"
+
+1511804838 c:\users\famille francois\documents\github\ecemon\include\field.h
+	<queue>
+	<vector>
+	<Joueur.h>
+	"Carte.h"
+
+1511284848 source:c:\users\famille francois\documents\github\ecemon\src\magasin.cpp
+	"Magasin.h"
+
+1511169354 source:c:\users\famille francois\documents\github\ecemon\src\magie.cpp
+	"Magie.h"
+
+1511169360 source:c:\users\famille francois\documents\github\ecemon\src\monstre.cpp
+	"Monstre.h"
+
+1511284856 source:c:\users\famille francois\documents\github\ecemon\src\piege.cpp
+	"Piege.h"
+
+1510607562 source:c:\users\famille francois\documents\github\ecemon\src\sort.cpp
+	"Sort.h"
+
+1511169372 source:c:\users\famille francois\documents\github\ecemon\src\terrain.cpp
+	"Terrain.h"
+
+1511803568 c:\users\famille francois\documents\github\ecemon\include\duel.h
+	"Joueur.h"
+	"Field.h"
+	<iostream>
+	<queue>
+	<algorithm>
+	<string>
+	<cstdlib>
+	<ctime>
 
