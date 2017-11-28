@@ -1,5 +1,4 @@
 #include "Carte.h"
-#include "Duel.h"
 Carte::Carte()
 {
     //ctor
@@ -162,6 +161,29 @@ void Carte::Askafroa(Joueur player1)
 
 }
 
+void Carte::DestinFinal(Joueur player1, Joueur player2)
+{
+    for(auto& elem : player1.Field)
+    {
+        Graveyard.push_back(elem);
+        elem& = NULL;
+    }
+    for(auto& elem : player1.Hand)
+    {
+        Graveyard.push_back(elem);
+        elem& = NULL;
+    }
+     for(auto& elem : player2.Field)
+    {
+        Graveyard.push_back(elem);
+        elem& = NULL;
+    }
+    for(auto& elem : player2.Hand)
+    {
+        Graveyard.push_back(elem);
+        elem& = NULL;
+    }
+}
 
 
 

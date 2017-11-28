@@ -25,7 +25,20 @@ void Duel::start(Joueur player1, Joueur player2)
         player2.PlayDeck.pop();
     }
 }
-
+void Duel::attack(Carte* card1, Carte* target)
+{
+    Monstre* m = dynamic_cast<Monstre*>(card1);
+    Monstre* t = dynamic_cast<Monstre*>(target);
+    if(m->getATK() > t->getDEF())
+    {
+        destroy(t);
+    }
+}
+void Duel::destroy(Carte card1)
+{
+    Graveyard.push_back(card1*);
+    card1* = NULL;
+}
 void Duel::draw(Joueur player1)
 {
     player1.Hand.push_back(PlayDeck.front());
@@ -110,3 +123,36 @@ std::string Duel::m_phase[0] = "DrawPhase"
 std::string Duel::m_phase[1] = "MainPhase"
 std::string Duel::m_phase[2] = "BattlePhase"
 std::string Duel::m_phase[3] = "EndPhase"
+
+std::queue<Carte>& Duel::getMyPlayDeck()const
+{
+    return MyPlayDeck;
+}
+std::vector<Carte>& Duel::getMyHand()const
+{
+    return MyHand;
+}
+std::vector<Carte>& Duel::getMyGraveyard()const
+{
+    return MyGraveyard;
+}
+std::vector<Carte>& Duel::getMyField()const
+{
+    return MyField;
+}
+std::queue<Carte>& Duel::getHisPlayDeck()const
+{
+    return HisPlayDeck;
+}
+std::vector<Carte>& Duel::getHisHand()const
+{
+    return HisHand;
+}
+std::vector<Carte>& Duel::getHisGraveyard()const
+{
+    return HisGraveyard;
+}
+std::vector<Carte>& Duel::getHisField()const
+{
+    return HisField;
+}

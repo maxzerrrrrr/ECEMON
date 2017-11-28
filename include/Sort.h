@@ -4,7 +4,7 @@
 #include "Carte.h"
 #include <allegro.h>
 
-class Sort : public Carte;
+class Sort : public Carte
 {
 public:
     Sort();

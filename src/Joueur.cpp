@@ -34,22 +34,6 @@ std::string Joueur::getNomJoueur()
     return m_nom;
     std::cout << "m_nom :" <<m_nom<<std::endl;
 }
-std::queue<Carte>& Joueur::getPlayDeck()const
-{
-    return PlayDeck;
-}
-std::vector<Carte>& Joueur::getHand()const
-{
-    return Hand;
-}
-std::vector<Carte>& Joueur::getGraveyard()const
-{
-    return Graveyard;
-}
-std::vector<Carte>& Joueur::getMyField()const*
-{
-    return Field;
-}
 int Joueur::getMoney()
 {
     return m_money;
