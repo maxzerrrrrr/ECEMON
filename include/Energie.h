@@ -1,6 +1,5 @@
 #ifndef ENERGIE_H
 #define ENERGIE_H
-#include "Carte.h"
 #include <iostream>
 
 class Energie : public Carte

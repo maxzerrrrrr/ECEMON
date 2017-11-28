@@ -185,7 +185,12 @@ void Carte::DestinFinal(Joueur player1, Joueur player2)
     }
 }
 
-
+void Carte::Audhumla(Joueur player1)
+{
+    player1.setLP +=1000;
+    player1.draw();
+    player1.draw();
+}
 
 
 

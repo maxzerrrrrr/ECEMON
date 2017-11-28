@@ -3,7 +3,6 @@
 #include <queue>
 #include <vector>
 #include <Joueur.h>
-#include "Carte.h"
 
 class Field
 {

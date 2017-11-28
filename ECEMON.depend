@@ -219,21 +219,21 @@
 	"Energie.h"
 	<iostream>
 
-1511877959 c:\users\cfb91\onedrive\documents\github\ecemon\include\carte.h
+1511889771 c:\users\cfb91\onedrive\documents\github\ecemon\include\carte.h
 	<iostream>
 	"Duel.h"
+	"Joueur.h"
 	<allegro.h>
 	<vector>
 
-1511169206 c:\users\cfb91\onedrive\documents\github\ecemon\include\energie.h
-	"Carte.h"
+1511889751 c:\users\cfb91\onedrive\documents\github\ecemon\include\energie.h
 	<iostream>
 
 1511169172 c:\users\cfb91\onedrive\documents\github\ecemon\include\magie.h
 	"Sort.h"
 	<iostream>
 
-1511872876 c:\users\cfb91\onedrive\documents\github\ecemon\include\sort.h
+1511889866 c:\users\cfb91\onedrive\documents\github\ecemon\include\sort.h
 	"Carte.h"
 	<allegro.h>
 
@@ -333,7 +333,7 @@
 	<cstdlib>
 	<ctime>
 
-1511878134 c:\users\cfb91\onedrive\documents\github\ecemon\include\duel.h
+1511889567 c:\users\cfb91\onedrive\documents\github\ecemon\include\duel.h
 	"Field.h"
 	"Joueur.h"
 	"Carte.h"
@@ -344,11 +344,10 @@
 	<cstdlib>
 	<ctime>
 
-1511872737 c:\users\cfb91\onedrive\documents\github\ecemon\include\field.h
+1511889366 c:\users\cfb91\onedrive\documents\github\ecemon\include\field.h
 	<queue>
 	<vector>
 	<Joueur.h>
-	"Carte.h"
 
 1511184428 source:c:\users\cfb91\onedrive\documents\github\ecemon\src\field.cpp
 	"Field.h"

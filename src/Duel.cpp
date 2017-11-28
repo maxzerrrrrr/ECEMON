@@ -31,7 +31,15 @@ void Duel::attack(Carte* card1, Carte* target)
     Monstre* t = dynamic_cast<Monstre*>(target);
     if(m->getATK() > t->getDEF())
     {
+        int degat = m->getATK() - t->getDEF();
         destroy(t);
+        player1.setLP -= degat;
+
+    }
+    if(m->getATK() < t->getDEF())
+    {
+        int degat = t->getDEF() - m->getATK();
+        player2.setLP -= degats;
     }
 }
 void Duel::destroy(Carte card1)

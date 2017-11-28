@@ -2,6 +2,7 @@
 #define CARTE_H
 #include <iostream>
 #include "Duel.h"
+#include "Joueur.h"
 #include <allegro.h>
 #include <vector>
 
@@ -33,13 +34,14 @@ public:
     virtual void AffichInfo(const char * chemin) const;
     virtual void AjouterCarte(std::string nom, std::string domaine, int nbre_exemplaires);
 
-//    void Dryade(Duel A, Joueur player1);
-//    void Ange(Joueur player1);
-//    void DameBlanche(Joueur player2);
-//    void Agloolik(Joueur player1);
-//    void Aerico(Joueur player2);
-//    void Askafroa(Joueur player1);
-//    void DestinFinal(Joueur player1, Joueur player2)
+    void Dryade(Duel A, Joueur player1);
+    void Ange(Joueur player1);
+    void DameBlanche(Joueur player2);
+    void Agloolik(Joueur player1);
+    void Aerico(Joueur player2);
+    void Askafroa(Joueur player1);
+    void DestinFinal(Joueur player1, Joueur player2);
+    void Audhumla(Joueur player1);
 
 
 protected:
