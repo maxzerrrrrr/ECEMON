@@ -15,7 +15,7 @@ Duel::~Duel()
     //dtor
 }
 
-void Duel::start(Joueur player1, Joueur player2)
+void Duel::start(JoueurDuel player1, JoueurDuel player2)
 {
     while(player2.Hand.size() != 5)
     {
@@ -47,13 +47,13 @@ void Duel::destroy(Carte card1)
     Graveyard.push_back(card1*);
     card1* = NULL;
 }
-void Duel::draw(Joueur player1)
+void Duel::draw(JoueurDuel player1)
 {
     player1.Hand.push_back(PlayDeck.front());
     PlayDeck.pop();
 }
 
-void Duel::defausse(int i, Joueur playeer1)
+void Duel::defausse(int i, JoueurDuel playeer1)
 {
     std::vector<Carte>::iterator it;
     if(i > Hand.size())
@@ -80,7 +80,7 @@ int Duel::getturn()const
     return m_turn;
 }
 
-std::vector<Joueur> Duel::getMesjoueurs()const
+std::vector<JoueurDuel> Duel::getMesjoueurs()const
 {
     return MesJoueurs;
 }
@@ -97,7 +97,7 @@ void Duel::shuffle()
         HisPlayDeck.push(elem);
     }
 }
-void Duel::AjouterJoueur(Joueur player1, Joueur player2)
+void Duel::AjouterJoueur(JoueurDuel player1, JoueurDuel player2)
 {
     MesJoueurs.push_back(player1);
     MesJoueurs.push_back(player2);
@@ -132,35 +132,4 @@ std::string Duel::m_phase[1] = "MainPhase"
 std::string Duel::m_phase[2] = "BattlePhase"
 std::string Duel::m_phase[3] = "EndPhase"
 
-std::queue<Carte>& Duel::getMyPlayDeck()const
-{
-    return MyPlayDeck;
-}
-std::vector<Carte>& Duel::getMyHand()const
-{
-    return MyHand;
-}
-std::vector<Carte>& Duel::getMyGraveyard()const
-{
-    return MyGraveyard;
-}
-std::vector<Carte>& Duel::getMyField()const
-{
-    return MyField;
-}
-std::queue<Carte>& Duel::getHisPlayDeck()const
-{
-    return HisPlayDeck;
-}
-std::vector<Carte>& Duel::getHisHand()const
-{
-    return HisHand;
-}
-std::vector<Carte>& Duel::getHisGraveyard()const
-{
-    return HisGraveyard;
-}
-std::vector<Carte>& Duel::getHisField()const
-{
-    return HisField;
-}
+

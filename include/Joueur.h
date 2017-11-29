@@ -37,22 +37,20 @@ public:
     std::vector<Joueur> RecupJoueur();
     void CreationDeck(int num);
     Deck RecupDeck(int num);
-    int getLP()const;
-    void setLP();
     void AfficherDeck(Deck d);
     std::vector<Carte>getMesjoueurs()const;
     void AcheterCarte(Magasin *m);
 
 protected:
-
-private:
     std::vector <Joueur>&MesJoueurs;
     Deck JDeck;
     std::string m_nom="undefined";
     int m_money;
     int m_nbre_victoires;
     int m_nbre_defaites;
-    int m_lifepoint = 8000;
+
+private:
+
 };
 
 #endif // JOUEUR_H

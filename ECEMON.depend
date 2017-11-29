@@ -233,7 +233,7 @@
 	"Sort.h"
 	<iostream>
 
-1511889866 c:\users\cfb91\onedrive\documents\github\ecemon\include\sort.h
+1511891386 c:\users\cfb91\onedrive\documents\github\ecemon\include\sort.h
 	"Carte.h"
 	<allegro.h>
 
@@ -247,7 +247,7 @@
 1511170110 c:\users\cfb91\onedrive\documents\github\ecemon\include\achat.h
 	"Carte.h"
 
-1511877979 c:\users\cfb91\onedrive\documents\github\ecemon\include\joueur.h
+1511960204 c:\users\cfb91\onedrive\documents\github\ecemon\include\joueur.h
 	<iostream>
 	<allegro.h>
 	<vector>
@@ -333,9 +333,9 @@
 	<cstdlib>
 	<ctime>
 
-1511889567 c:\users\cfb91\onedrive\documents\github\ecemon\include\duel.h
+1511960204 c:\users\cfb91\onedrive\documents\github\ecemon\include\duel.h
 	"Field.h"
-	"Joueur.h"
+	"JoueurDuel.h"
 	"Carte.h"
 	<iostream>
 	<queue>
@@ -524,4 +524,7 @@
 	<string>
 	<cstdlib>
 	<ctime>
+
+1511960204 c:\users\cfb91\onedrive\documents\github\ecemon\include\joueurduel.h
+	<Joueur.h>
 
