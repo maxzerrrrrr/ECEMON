@@ -1,0 +1,273 @@
+#include "Joueur.h"
+
+Joueur::Joueur()
+{
+    //ctor
+}
+
+Joueur::~Joueur()
+{
+    //dtor
+}
+
+int Joueur::getDefaite()
+{
+    return m_nbre_defaites;
+}
+int Joueur::getVictoire()
+{
+    return m_nbre_victoires;
+}
+
+std::string Joueur::getNomJoueur()
+{
+
+    return m_nom;
+    std::cout << "m_nom :" <<m_nom<<std::endl;
+}
+
+int Joueur::getMoney()
+{
+    return m_money;
+}
+
+void Joueur::setDefaite(int _defaites)
+{
+    m_nbre_defaites=_defaites;
+}
+
+void Joueur::setVictoire(int _victoires)
+{
+    m_nbre_victoires=_victoires;
+}
+
+void Joueur::setNomJoueur(std::string _nom)
+{
+    m_nom=_nom;
+}
+
+void Joueur::setMoney(int _money)
+{
+    m_money=_money;
+}
+
+
+
+void Joueur::CreerJoueur()
+{
+    ///Lire un fichier ligne par ligne
+    ///Entrée : le chemin d'accès au fichier
+
+    std::ofstream fichier("JOUEUR.txt", std::ios::app);
+
+    std::cout << "Creer joueur => JOUEUR.text => OK" << std::endl;
+
+    std::string nom;
+
+    if (fichier) ///test si le fichier est bien ouvert
+    {
+
+        allegro_message("ENTRER LE NOM DU JOUEUR");
+        std::cout << "Entrer le nom du joueur : " << std::endl;
+        std::cin >> nom;
+
+        fichier <<"\n" <<0 <<" "<<0 << " "<< nom <<" "<< 5000<< std::endl;
+
+
+
+        fichier.close();
+    }
+    else ///en cas d'erreur...
+    {
+        std::cout << "Cannot read JOUEUR.text" << std::endl;
+    }
+}
+
+std::vector <Joueur> Joueur::RecupJoueur()
+{
+
+    ///Lire un fichier ligne par ligne
+    ///Entrée : le chemin d'accès au fichier
+    std::vector <Joueur> Actualiser;
+    std::ifstream fichier("JOUEUR.txt", std::ios::in);
+    std::cout << "Recup Joueur => JOUEUR.text => OK" << std::endl;
+    if(fichier)
+    {
+
+        std::string line;
+        std::string nom;
+        int victoires;
+        int defaites;
+        int money;
+
+        do
+        {
+             fichier >>  victoires >> defaites >> nom >> money;
+            if(nom!="suppr")
+            {
+                Joueur j;
+                j.setNomJoueur(nom);
+                j.setVictoire(victoires);
+                j.setDefaite(defaites);
+                j.setMoney(money);
+                Actualiser.push_back(j);
+
+
+            }
+        }while(fichier.eof()==false);
+
+        fichier.close();
+    }
+    else ///en cas d'erreur...
+    {
+        std::cout << "Cannot read JOUEUR.text" << std::endl;
+    }
+    Actualiser.pop_back();
+    MesJoueurs=Actualiser;
+    return Actualiser;
+}
+
+void Joueur::CreationDeck(int num)
+{
+    std::cout << "DECK SIZE : "<< num << std::endl;
+    std::vector<Carte> Collectionbase;
+    std::string nom;
+    std::string dossier="DECK/";
+    std::string exte= ".txt";
+    std::string chemin;
+
+    Deck monDeck(MesJoueurs[num].getNomJoueur(), 30);
+    nom=MesJoueurs[num].getNomJoueur().c_str();
+    chemin=dossier+nom+exte;
+
+
+       std::ofstream file(chemin, std::ios::app);
+       std::cout << "Opening deck" << std::endl;
+       if(file)
+       {
+            file << "MONSTRE ADDANC EUROPE 3 0 1000 1000 1 5 CARTESBMPTERRAIN/monstre2_t.bmp";
+            file << "\n" << "MONSTRE ADLET EUROPE 2 1 1500 0 1 5 CARTESBMPSHOP/monstre17_t.bmp";
+       }
+       else
+       {
+           std::cout << "Cannot open deck" << std::endl;
+       }
+       file.close();
+
+       std::ifstream fichier(chemin, std::ios::in);
+       std::cout << "Opening deck 2" << std::endl;
+       if(fichier)
+       {
+            std::string type;
+            std::string nom;
+            int energie;
+            int atk;
+            bool stock;
+            int nbre_carte;
+            int pt_energie;
+            std::string domaine;
+            int def;
+            bool special;
+        do
+        {
+            fichier >> type;
+            if(type=="MONSTRE")
+            {
+                fichier >> nom >> domaine >> energie >> special >> atk >> def >> stock >> nbre_carte >> path;
+                Monstre maCarte;
+
+                ///INITIALISER PARAMETRES
+                maCarte.setNom(nom);
+                maCarte.setDomaine(domaine);
+                maCarte.setEnergie(energie);
+                maCarte.setSpec(special);
+                maCarte.setATK(atk);
+                maCarte.setDEF(def);
+                maCarte.setStock(stock);
+                maCarte.setNbreCartes(nbre_carte);
+
+                ///CONVERSION STRING TO CHAR*
+                chemin=path.c_str();
+
+                ///CHARGEMENT DE LA CARTE
+                maCarte.setBITMAP(chemin);
+
+                ///AJOUT DE LA CARTE DANS LA COLLECTION
+                CollectionMagasin.push_back(maCarte);
+
+                ///AFFICHER LES INFOS
+                maCarte.AffichInfo(chemin);
+
+            }
+            else if(type=="MAGIE" || type=="PIEGE")
+            {
+                fichier >>  nom >> stock >> nbre_carte >> path;
+                if(type=="MAGIE")
+                {
+                    Magie maCarte;
+                    maCarte.setNom(nom);
+                    chemin=path.c_str();
+                    maCarte.setStock(stock);
+                    maCarte.setNbreCartes(nbre_carte);
+                    maCarte.setBITMAP(chemin);
+                    CollectionMagasin.push_back(maCarte);
+                    maCarte.AffichInfo(chemin);
+
+                }
+                if(type=="PIEGE")
+                {
+                    Piege maCarte;
+                    maCarte.setNom(nom);
+                    chemin=path.c_str();
+                    maCarte.setStock(stock);
+                    maCarte.setNbreCartes(nbre_carte);
+                    maCarte.setBITMAP(chemin);
+                    CollectionMagasin.push_back(maCarte);
+                    maCarte.AffichInfo(chemin);
+
+                }
+
+            }
+            else if(type=="ENERGIE")
+            {
+                fichier >> domaine >> pt_energie >> stock >> nbre_carte >> path;
+                Energie maCarte;
+                maCarte.setNom(type);
+                chemin=path.c_str();
+                maCarte.setStock(stock);
+                maCarte.setNbreCartes(nbre_carte);
+                maCarte.setBITMAP(chemin);
+                maCarte.setDomaine(domaine);
+                maCarte.setPE(pt_energie);
+                CollectionMagasin.push_back(maCarte);
+                maCarte.AffichInfo(chemin);
+
+
+            }
+            if(type=="TERRAIN")
+            {
+                fichier >>  nom >> stock >> nbre_carte >> path;
+                Terrain maCarte;
+                maCarte.setNom(nom);
+                chemin=path.c_str();
+                maCarte.setStock(stock);
+                maCarte.setNbreCartes(nbre_carte);
+                maCarte.setBITMAP(chemin);
+                CollectionMagasin.push_back(maCarte);
+                maCarte.AffichInfo(chemin);
+            }
+            std::cout << "\n";
+            num++;
+        }
+        while(std::getline(fichier,line));
+
+        fichier.close(); // fermeture du flux
+       }
+       else
+       {
+           std::cout << "Cannot open deck 2" << std::endl;
+       }
+
+
+}
+

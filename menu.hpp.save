@@ -1,0 +1,7 @@
+#ifndef MENU_H
+#define MENU_H
+
+#include <allegro.h>
+
+int menu(int* choix, BITMAP *buffermenu, BITMAP* mythologia, BITMAP* cursor, BITMAP* play, BITMAP* wallpaper, BITM);
+#endif // MENU_H
